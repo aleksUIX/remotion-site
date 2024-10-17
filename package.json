@@ -1,0 +1,23 @@
+{
+    "name": "remotion-site",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "remotion serve",
+        "build": "remotion bundle src/index.tsx",
+        "start": "remotion start"
+    },
+    "dependencies": {
+        "@remotion/cli": "^4.0.221",
+        "@types/react": "^18.3.11",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "remotion": "^4.0.0"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.0.0",
+        "typescript": "^5.0.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^4.0.0"
+    }
+}

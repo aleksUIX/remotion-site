@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 38:
+/***/ 9481:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /**
@@ -17,7 +17,7 @@
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(6656),ca=__webpack_require__(70);function p(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}var da=new Set,ea={};function fa(a,b){ha(a,b);ha(a+"Capture",b)}
+var aa=__webpack_require__(758),ca=__webpack_require__(1896);function p(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}var da=new Set,ea={};function fa(a,b){ha(a,b);ha(a+"Capture",b)}
 function ha(a,b){ea[a]=b;for(a=0;a<b.length;a++)da.add(b[a])}
 var ia=!("undefined"===typeof window||"undefined"===typeof window.document||"undefined"===typeof window.document.createElement),ja=Object.prototype.hasOwnProperty,ka=/^[:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\-.0-9\u00B7\u0300-\u036F\u203F-\u2040]*$/,la=
 {},ma={};function oa(a){if(ja.call(ma,a))return!0;if(ja.call(la,a))return!1;if(ka.test(a))return ma[a]=!0;la[a]=!0;return!1}function pa(a,b,c,d){if(null!==c&&0===c.type)return!1;switch(typeof b){case "function":case "symbol":return!0;case "boolean":if(d)return!1;if(null!==c)return!c.acceptsBooleans;a=a.toLowerCase().slice(0,5);return"data-"!==a&&"aria-"!==a;default:return!1}}
@@ -331,12 +331,12 @@ exports.unstable_renderSubtreeIntoContainer=function(a,b,c,d){if(!ol(c))throw Er
 
 /***/ }),
 
-/***/ 6966:
+/***/ 9576:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
-var m = __webpack_require__(6605);
+var m = __webpack_require__(8143);
 if (true) {
   exports.createRoot = m.createRoot;
   exports.hydrateRoot = m.hydrateRoot;
@@ -345,7 +345,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 6605:
+/***/ 8143:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -373,13 +373,13 @@ if (true) {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(38);
+  module.exports = __webpack_require__(9481);
 } else {}
 
 
 /***/ }),
 
-/***/ 6069:
+/***/ 7462:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /**
@@ -391,13 +391,13 @@ if (true) {
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-var f=__webpack_require__(6656),k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
+var f=__webpack_require__(758),k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
 function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&(e=""+a.key);void 0!==a.ref&&(h=a.ref);for(b in a)m.call(a,b)&&!p.hasOwnProperty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps,a)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l;exports.jsx=q;exports.jsxs=q;
 
 
 /***/ }),
 
-/***/ 7622:
+/***/ 2713:
 /***/ ((__unused_webpack_module, exports) => {
 
 /**
@@ -430,38 +430,38 @@ exports.useMemo=function(a,b){return U.current.useMemo(a,b)};exports.useReducer=
 
 /***/ }),
 
-/***/ 6656:
+/***/ 758:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(7622);
+  module.exports = __webpack_require__(2713);
 } else {}
 
 
 /***/ }),
 
-/***/ 5404:
+/***/ 6070:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(6069);
+  module.exports = __webpack_require__(7462);
 } else {}
 
 
 /***/ }),
 
-/***/ 7010:
+/***/ 363:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AbsoluteFill = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
 const AbsoluteFillRefForwarding = (props, ref) => {
     const { style, ...other } = props;
     const actualStyle = (0, react_1.useMemo)(() => {
@@ -489,16 +489,16 @@ exports.AbsoluteFill = (0, react_1.forwardRef)(AbsoluteFillRefForwarding);
 
 /***/ }),
 
-/***/ 9588:
+/***/ 1561:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Artifact = void 0;
-const react_1 = __webpack_require__(6656);
-const RenderAssetManager_1 = __webpack_require__(3425);
-const get_remotion_environment_1 = __webpack_require__(8898);
-const use_current_frame_1 = __webpack_require__(6731);
+const react_1 = __webpack_require__(758);
+const RenderAssetManager_1 = __webpack_require__(2672);
+const get_remotion_environment_1 = __webpack_require__(7003);
+const use_current_frame_1 = __webpack_require__(8764);
 const Artifact = ({ filename, content }) => {
     const { registerRenderAsset, unregisterRenderAsset } = (0, react_1.useContext)(RenderAssetManager_1.RenderAssetManager);
     const [env] = (0, react_1.useState)(() => (0, get_remotion_environment_1.getRemotionEnvironment)());
@@ -549,14 +549,14 @@ exports.Artifact = Artifact;
 
 /***/ }),
 
-/***/ 6510:
+/***/ 4817:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CanUseRemotionHooksProvider = exports.CanUseRemotionHooks = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
 exports.CanUseRemotionHooks = (0, react_1.createContext)(false);
 const CanUseRemotionHooksProvider = ({ children }) => {
     return ((0, jsx_runtime_1.jsx)(exports.CanUseRemotionHooks.Provider, { value: true, children: children }));
@@ -566,14 +566,14 @@ exports.CanUseRemotionHooksProvider = CanUseRemotionHooksProvider;
 
 /***/ }),
 
-/***/ 7945:
+/***/ 458:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Clipper = void 0;
-const react_1 = __webpack_require__(6656);
-const NativeLayers_js_1 = __webpack_require__(9391);
+const react_1 = __webpack_require__(758);
+const NativeLayers_js_1 = __webpack_require__(4266);
 const Clipper = ({ height, width, x, y }) => {
     const { setClipRegion } = (0, react_1.useContext)(NativeLayers_js_1.NativeLayersContext);
     (0, react_1.useEffect)(() => {
@@ -597,32 +597,32 @@ exports.Clipper = Clipper;
 
 /***/ }),
 
-/***/ 766:
+/***/ 9673:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Composition = exports.ClipComposition = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const react_dom_1 = __webpack_require__(6605);
-const AbsoluteFill_js_1 = __webpack_require__(7010);
-const CanUseRemotionHooks_js_1 = __webpack_require__(6510);
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const Folder_js_1 = __webpack_require__(9338);
-const NativeLayers_js_1 = __webpack_require__(9391);
-const ResolveCompositionConfig_js_1 = __webpack_require__(9846);
-const delay_render_js_1 = __webpack_require__(5892);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const input_props_serialization_js_1 = __webpack_require__(5854);
-const is_player_js_1 = __webpack_require__(1002);
-const loading_indicator_js_1 = __webpack_require__(8060);
-const nonce_js_1 = __webpack_require__(883);
-const portal_node_js_1 = __webpack_require__(2517);
-const use_lazy_component_js_1 = __webpack_require__(1940);
-const use_video_js_1 = __webpack_require__(8733);
-const validate_composition_id_js_1 = __webpack_require__(8448);
-const validate_default_props_js_1 = __webpack_require__(264);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const react_dom_1 = __webpack_require__(8143);
+const AbsoluteFill_js_1 = __webpack_require__(363);
+const CanUseRemotionHooks_js_1 = __webpack_require__(4817);
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const Folder_js_1 = __webpack_require__(7039);
+const NativeLayers_js_1 = __webpack_require__(4266);
+const ResolveCompositionConfig_js_1 = __webpack_require__(1523);
+const delay_render_js_1 = __webpack_require__(9713);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const input_props_serialization_js_1 = __webpack_require__(8521);
+const is_player_js_1 = __webpack_require__(2221);
+const loading_indicator_js_1 = __webpack_require__(7067);
+const nonce_js_1 = __webpack_require__(4720);
+const portal_node_js_1 = __webpack_require__(1670);
+const use_lazy_component_js_1 = __webpack_require__(5945);
+const use_video_js_1 = __webpack_require__(8910);
+const validate_composition_id_js_1 = __webpack_require__(8822);
+const validate_default_props_js_1 = __webpack_require__(3666);
 const ClipComposition = ({ children }) => {
     const { clipRegion } = (0, react_1.useContext)(NativeLayers_js_1.NativeLayersContext);
     const style = (0, react_1.useMemo)(() => {
@@ -728,7 +728,7 @@ exports.Composition = Composition;
 
 /***/ }),
 
-/***/ 4051:
+/***/ 2278:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -757,13 +757,13 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CompositionManagerProvider = exports.compositionsRef = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const RenderAssetManager_js_1 = __webpack_require__(3425);
-const ResolveCompositionConfig_js_1 = __webpack_require__(9846);
-const SequenceManager_js_1 = __webpack_require__(560);
-const shared_audio_tags_js_1 = __webpack_require__(5606);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const RenderAssetManager_js_1 = __webpack_require__(2672);
+const ResolveCompositionConfig_js_1 = __webpack_require__(1523);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const shared_audio_tags_js_1 = __webpack_require__(2382);
 exports.compositionsRef = react_1.default.createRef();
 const CompositionManagerProvider = ({ children, numberOfAudioTags }) => {
     var _a;
@@ -870,13 +870,13 @@ exports.CompositionManagerProvider = CompositionManagerProvider;
 
 /***/ }),
 
-/***/ 3644:
+/***/ 2659:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CompositionManager = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 exports.CompositionManager = (0, react_1.createContext)({
     compositions: [],
     registerComposition: () => undefined,
@@ -894,7 +894,7 @@ exports.CompositionManager = (0, react_1.createContext)({
 
 /***/ }),
 
-/***/ 9685:
+/***/ 3914:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -923,8 +923,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.EditorPropsProvider = exports.editorPropsProviderRef = exports.EditorPropsContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
 exports.EditorPropsContext = (0, react_1.createContext)({
     props: {},
     updateProps: () => {
@@ -967,17 +967,17 @@ exports.EditorPropsProvider = EditorPropsProvider;
 
 /***/ }),
 
-/***/ 9338:
+/***/ 7039:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Folder = exports.FolderContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const truthy_js_1 = __webpack_require__(5938);
-const validate_folder_name_js_1 = __webpack_require__(1146);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const truthy_js_1 = __webpack_require__(7843);
+const validate_folder_name_js_1 = __webpack_require__(8916);
 exports.FolderContext = (0, react_1.createContext)({
     folderName: null,
     parentName: null,
@@ -1011,15 +1011,15 @@ exports.Folder = Folder;
 
 /***/ }),
 
-/***/ 2614:
+/***/ 2899:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.IFrame = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const delay_render_js_1 = __webpack_require__(5892);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const delay_render_js_1 = __webpack_require__(9713);
 const IFrameRefForwarding = ({ onLoad, onError, delayRenderRetries, delayRenderTimeoutInMilliseconds, ...props }, ref) => {
     const [handle] = (0, react_1.useState)(() => (0, delay_render_js_1.delayRender)(`Loading <IFrame> with source ${props.src}`, {
         retries: delayRenderRetries !== null && delayRenderRetries !== void 0 ? delayRenderRetries : undefined,
@@ -1050,19 +1050,19 @@ exports.IFrame = (0, react_1.forwardRef)(IFrameRefForwarding);
 
 /***/ }),
 
-/***/ 6791:
+/***/ 6128:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Img = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const cancel_render_js_1 = __webpack_require__(7693);
-const delay_render_js_1 = __webpack_require__(5892);
-const prefetch_js_1 = __webpack_require__(5721);
-const use_buffer_state_js_1 = __webpack_require__(2318);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const cancel_render_js_1 = __webpack_require__(7154);
+const delay_render_js_1 = __webpack_require__(9713);
+const prefetch_js_1 = __webpack_require__(5640);
+const use_buffer_state_js_1 = __webpack_require__(8455);
 function exponentialBackoff(errorCount) {
     return 1000 * 2 ** (errorCount - 1);
 }
@@ -1202,14 +1202,14 @@ exports.Img = (0, react_1.forwardRef)(ImgRefForwarding);
 
 /***/ }),
 
-/***/ 9391:
+/***/ 4266:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NativeLayersProvider = exports.NativeLayersContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
 exports.NativeLayersContext = (0, react_1.createContext)({
     setClipRegion: () => {
         throw new Error('NativeLayers not set');
@@ -1239,14 +1239,14 @@ exports.NativeLayersProvider = NativeLayersProvider;
 
 /***/ }),
 
-/***/ 9687:
+/***/ 2994:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Null = void 0;
-const react_1 = __webpack_require__(6656);
-const NativeLayers_js_1 = __webpack_require__(9391);
+const react_1 = __webpack_require__(758);
+const NativeLayers_js_1 = __webpack_require__(4266);
 const Null = () => {
     const { setClipRegion } = (0, react_1.useContext)(NativeLayers_js_1.NativeLayersContext);
     (0, react_1.useEffect)(() => {
@@ -1271,24 +1271,24 @@ exports.Null = Null;
 
 /***/ }),
 
-/***/ 6925:
+/***/ 800:
 /***/ ((module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.RemotionRoot = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const CompositionManager_js_1 = __webpack_require__(4051);
-const EditorProps_js_1 = __webpack_require__(9685);
-const NativeLayers_js_1 = __webpack_require__(9391);
-const buffering_js_1 = __webpack_require__(122);
-const delay_render_js_1 = __webpack_require__(5892);
-const nonce_js_1 = __webpack_require__(883);
-const prefetch_state_js_1 = __webpack_require__(2237);
-const random_js_1 = __webpack_require__(1105);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const duration_state_js_1 = __webpack_require__(4227);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const CompositionManager_js_1 = __webpack_require__(2278);
+const EditorProps_js_1 = __webpack_require__(3914);
+const NativeLayers_js_1 = __webpack_require__(4266);
+const buffering_js_1 = __webpack_require__(6709);
+const delay_render_js_1 = __webpack_require__(9713);
+const nonce_js_1 = __webpack_require__(4720);
+const prefetch_state_js_1 = __webpack_require__(6652);
+const random_js_1 = __webpack_require__(712);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const duration_state_js_1 = __webpack_require__(2719);
 const RemotionRoot = ({ children, numberOfAudioTags }) => {
     const [remotionRootId] = (0, react_1.useState)(() => String((0, random_js_1.random)(null)));
     const [frame, setFrame] = (0, react_1.useState)(() => (0, timeline_position_state_js_1.getInitialFrameState)());
@@ -1370,15 +1370,15 @@ exports.RemotionRoot = RemotionRoot;
 
 /***/ }),
 
-/***/ 3425:
+/***/ 2672:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.RenderAssetManagerProvider = exports.RenderAssetManager = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const validate_artifact_js_1 = __webpack_require__(9866);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const validate_artifact_js_1 = __webpack_require__(8532);
 exports.RenderAssetManager = (0, react_1.createContext)({
     // Must be undefined, otherwise error in Player
     registerRenderAsset: () => undefined,
@@ -1420,23 +1420,23 @@ exports.RenderAssetManagerProvider = RenderAssetManagerProvider;
 
 /***/ }),
 
-/***/ 9846:
+/***/ 1523:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useResolvedVideoConfig = exports.ResolveCompositionConfig = exports.PROPS_UPDATED_EXTERNALLY = exports.needsResolution = exports.resolveCompositionsRef = exports.ResolveCompositionContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const EditorProps_js_1 = __webpack_require__(9685);
-const input_props_js_1 = __webpack_require__(8087);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const nonce_js_1 = __webpack_require__(883);
-const resolve_video_config_js_1 = __webpack_require__(17);
-const validate_dimensions_js_1 = __webpack_require__(9457);
-const validate_duration_in_frames_js_1 = __webpack_require__(9213);
-const validate_fps_js_1 = __webpack_require__(4025);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const EditorProps_js_1 = __webpack_require__(3914);
+const input_props_js_1 = __webpack_require__(9729);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const nonce_js_1 = __webpack_require__(4720);
+const resolve_video_config_js_1 = __webpack_require__(2244);
+const validate_dimensions_js_1 = __webpack_require__(7691);
+const validate_duration_in_frames_js_1 = __webpack_require__(7279);
+const validate_fps_js_1 = __webpack_require__(2083);
 exports.ResolveCompositionContext = (0, react_1.createContext)(null);
 exports.resolveCompositionsRef = (0, react_1.createRef)();
 const needsResolution = (composition) => {
@@ -1784,24 +1784,24 @@ exports.useResolvedVideoConfig = useResolvedVideoConfig;
 
 /***/ }),
 
-/***/ 5891:
+/***/ 6322:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Sequence = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
+const jsx_runtime_1 = __webpack_require__(6070);
 /* eslint-disable @typescript-eslint/no-use-before-define */
-const react_1 = __webpack_require__(6656);
-const AbsoluteFill_js_1 = __webpack_require__(7010);
-const SequenceContext_js_1 = __webpack_require__(108);
-const SequenceManager_js_1 = __webpack_require__(560);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const nonce_js_1 = __webpack_require__(883);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const use_video_config_js_1 = __webpack_require__(7988);
-const freeze_js_1 = __webpack_require__(7313);
-const use_current_frame_1 = __webpack_require__(6731);
+const react_1 = __webpack_require__(758);
+const AbsoluteFill_js_1 = __webpack_require__(363);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const nonce_js_1 = __webpack_require__(4720);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const use_video_config_js_1 = __webpack_require__(7577);
+const freeze_js_1 = __webpack_require__(4420);
+const use_current_frame_1 = __webpack_require__(8764);
 const RegularSequenceRefForwardingFunction = ({ from = 0, durationInFrames = Infinity, children, name, height, width, showInTimeline = true, _remotionInternalLoopDisplay: loopDisplay, _remotionInternalStack: stack, _remotionInternalPremountDisplay: premountDisplay, ...other }, ref) => {
     var _a;
     const { layout = 'absolute-fill' } = other;
@@ -1971,19 +1971,19 @@ exports.Sequence = (0, react_1.forwardRef)(SequenceRefForwardingFunction);
 
 /***/ }),
 
-/***/ 108:
+/***/ 4719:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SequenceContext = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 exports.SequenceContext = (0, react_1.createContext)(null);
 
 
 /***/ }),
 
-/***/ 560:
+/***/ 2959:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -2012,8 +2012,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SequenceManagerProvider = exports.SequenceVisibilityToggleContext = exports.SequenceManager = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
 exports.SequenceManager = react_1.default.createContext({
     registerSequence: () => {
         throw new Error('SequenceManagerContext not initialized');
@@ -2060,7 +2060,7 @@ exports.SequenceManagerProvider = SequenceManagerProvider;
 
 /***/ }),
 
-/***/ 1718:
+/***/ 7857:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -2069,8 +2069,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Still = void 0;
-const react_1 = __importDefault(__webpack_require__(6656));
-const Composition_js_1 = __webpack_require__(766);
+const react_1 = __importDefault(__webpack_require__(758));
+const Composition_js_1 = __webpack_require__(9673);
 /**
  * @description A `<Still />` is a `<Composition />` that is only 1 frame long.
  * @see [Documentation](https://www.remotion.dev/docs/still)
@@ -2089,12 +2089,12 @@ exports.Still = Still;
 
 /***/ }),
 
-/***/ 8136:
+/***/ 9153:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 if (typeof react_1.createContext !== 'function') {
     const err = [
         'Remotion requires React.createContext, but it is "undefined".',
@@ -2113,7 +2113,7 @@ if (typeof react_1.createContext !== 'function') {
 
 /***/ }),
 
-/***/ 6984:
+/***/ 5229:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2130,7 +2130,7 @@ exports.getAbsoluteSrc = getAbsoluteSrc;
 
 /***/ }),
 
-/***/ 1732:
+/***/ 303:
 /***/ (() => {
 
 
@@ -2138,30 +2138,30 @@ exports.getAbsoluteSrc = getAbsoluteSrc;
 
 /***/ }),
 
-/***/ 5084:
+/***/ 196:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Audio = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
+const jsx_runtime_1 = __webpack_require__(6070);
 /* eslint-disable @typescript-eslint/no-use-before-define */
-const react_1 = __webpack_require__(6656);
-const Sequence_js_1 = __webpack_require__(5891);
-const absolute_src_js_1 = __webpack_require__(6984);
-const calculate_loop_js_1 = __webpack_require__(6959);
-const cancel_render_js_1 = __webpack_require__(7693);
-const enable_sequence_stack_traces_js_1 = __webpack_require__(9061);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const index_js_1 = __webpack_require__(5148);
-const prefetch_js_1 = __webpack_require__(5721);
-const use_video_config_js_1 = __webpack_require__(7988);
-const validate_media_props_js_1 = __webpack_require__(2558);
-const validate_start_from_props_js_1 = __webpack_require__(6677);
-const duration_state_js_1 = __webpack_require__(4227);
-const AudioForPreview_js_1 = __webpack_require__(4001);
-const AudioForRendering_js_1 = __webpack_require__(8613);
-const shared_audio_tags_js_1 = __webpack_require__(5606);
+const react_1 = __webpack_require__(758);
+const Sequence_js_1 = __webpack_require__(6322);
+const absolute_src_js_1 = __webpack_require__(5229);
+const calculate_loop_js_1 = __webpack_require__(1078);
+const cancel_render_js_1 = __webpack_require__(7154);
+const enable_sequence_stack_traces_js_1 = __webpack_require__(6212);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const index_js_1 = __webpack_require__(1446);
+const prefetch_js_1 = __webpack_require__(5640);
+const use_video_config_js_1 = __webpack_require__(7577);
+const validate_media_props_js_1 = __webpack_require__(8567);
+const validate_start_from_props_js_1 = __webpack_require__(4842);
+const duration_state_js_1 = __webpack_require__(2719);
+const AudioForPreview_js_1 = __webpack_require__(9737);
+const AudioForRendering_js_1 = __webpack_require__(9517);
+const shared_audio_tags_js_1 = __webpack_require__(2382);
 const AudioRefForwardingFunction = (props, ref) => {
     var _a, _b, _c;
     const audioContext = (0, react_1.useContext)(shared_audio_tags_js_1.SharedAudioContext);
@@ -2225,26 +2225,26 @@ exports.Audio = (0, react_1.forwardRef)(AudioRefForwardingFunction);
 
 /***/ }),
 
-/***/ 4001:
+/***/ 9737:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AudioForPreview = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const SequenceManager_js_1 = __webpack_require__(560);
-const prefetch_js_1 = __webpack_require__(5721);
-const random_js_1 = __webpack_require__(1105);
-const use_media_in_timeline_js_1 = __webpack_require__(7066);
-const use_media_playback_js_1 = __webpack_require__(9110);
-const use_media_tag_volume_js_1 = __webpack_require__(7686);
-const use_sync_volume_with_media_tag_js_1 = __webpack_require__(8063);
-const volume_position_state_js_1 = __webpack_require__(5726);
-const volume_prop_js_1 = __webpack_require__(1664);
-const shared_audio_tags_js_1 = __webpack_require__(5606);
-const use_audio_frame_js_1 = __webpack_require__(4882);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const prefetch_js_1 = __webpack_require__(5640);
+const random_js_1 = __webpack_require__(712);
+const use_media_in_timeline_js_1 = __webpack_require__(9953);
+const use_media_playback_js_1 = __webpack_require__(9303);
+const use_media_tag_volume_js_1 = __webpack_require__(7079);
+const use_sync_volume_with_media_tag_js_1 = __webpack_require__(1902);
+const volume_position_state_js_1 = __webpack_require__(2749);
+const volume_prop_js_1 = __webpack_require__(9843);
+const shared_audio_tags_js_1 = __webpack_require__(2382);
+const use_audio_frame_js_1 = __webpack_require__(6746);
 const AudioForDevelopmentForwardRefFunction = (props, ref) => {
     var _a;
     const [initialShouldPreMountAudioElements] = (0, react_1.useState)(props.shouldPreMountAudioTags);
@@ -2364,23 +2364,23 @@ exports.AudioForPreview = (0, react_1.forwardRef)(AudioForDevelopmentForwardRefF
 
 /***/ }),
 
-/***/ 8613:
+/***/ 9517:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AudioForRendering = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const RenderAssetManager_js_1 = __webpack_require__(3425);
-const SequenceContext_js_1 = __webpack_require__(108);
-const absolute_src_js_1 = __webpack_require__(6984);
-const delay_render_js_1 = __webpack_require__(5892);
-const random_js_1 = __webpack_require__(1105);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const use_current_frame_js_1 = __webpack_require__(6731);
-const volume_prop_js_1 = __webpack_require__(1664);
-const use_audio_frame_js_1 = __webpack_require__(4882);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const RenderAssetManager_js_1 = __webpack_require__(2672);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const absolute_src_js_1 = __webpack_require__(5229);
+const delay_render_js_1 = __webpack_require__(9713);
+const random_js_1 = __webpack_require__(712);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const use_current_frame_js_1 = __webpack_require__(8764);
+const volume_prop_js_1 = __webpack_require__(9843);
+const use_audio_frame_js_1 = __webpack_require__(6746);
 const AudioForRenderingRefForwardingFunction = (props, ref) => {
     const audioRef = (0, react_1.useRef)(null);
     const { volume: volumeProp, playbackRate, allowAmplificationDuringRender, onDuration, toneFrequency, _remotionInternalNeedsDurationCalculation, _remotionInternalNativeLoopPassed, acceptableTimeShiftInSeconds, name, onError, delayRenderRetries, delayRenderTimeoutInMilliseconds, loopVolumeCurveBehavior, pauseWhenBuffering, ...nativeProps } = props;
@@ -2505,7 +2505,7 @@ exports.AudioForRendering = (0, react_1.forwardRef)(AudioForRenderingRefForwardi
 
 /***/ }),
 
-/***/ 3570:
+/***/ 3306:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -2524,13 +2524,13 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__exportStar(__webpack_require__(5084), exports);
-__exportStar(__webpack_require__(932), exports);
+__exportStar(__webpack_require__(196), exports);
+__exportStar(__webpack_require__(8252), exports);
 
 
 /***/ }),
 
-/***/ 932:
+/***/ 8252:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2539,7 +2539,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 5606:
+/***/ 2382:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -2568,9 +2568,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useSharedAudio = exports.SharedAudioContextProvider = exports.SharedAudioContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
-const play_and_handle_not_allowed_error_js_1 = __webpack_require__(4365);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
+const play_and_handle_not_allowed_error_js_1 = __webpack_require__(5730);
 const EMPTY_AUDIO = 'data:audio/mp3;base64,/+MYxAAJcAV8AAgAABn//////+/gQ5BAMA+D4Pg+BAQBAEAwD4Pg+D4EBAEAQDAPg++hYBH///hUFQVBUFREDQNHmf///////+MYxBUGkAGIMAAAAP/29Xt6lUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV/+MYxDUAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV';
 const compareProps = (obj1, obj2) => {
     const keysA = Object.keys(obj1).sort();
@@ -2791,16 +2791,16 @@ exports.useSharedAudio = useSharedAudio;
 
 /***/ }),
 
-/***/ 4882:
+/***/ 6746:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useFrameForVolumeProp = exports.useMediaStartsAt = void 0;
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const index_js_1 = __webpack_require__(5148);
-const use_current_frame_js_1 = __webpack_require__(6731);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const index_js_1 = __webpack_require__(1446);
+const use_current_frame_js_1 = __webpack_require__(8764);
 const useMediaStartsAt = () => {
     var _a;
     const parentSequence = (0, react_1.useContext)(SequenceContext_js_1.SequenceContext);
@@ -2826,7 +2826,7 @@ exports.useFrameForVolumeProp = useFrameForVolumeProp;
 
 /***/ }),
 
-/***/ 3101:
+/***/ 2584:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2946,14 +2946,14 @@ function bezier(mX1, mY1, mX2, mY2) {
 
 /***/ }),
 
-/***/ 5078:
+/***/ 6179:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useBufferUntilFirstFrame = void 0;
-const react_1 = __webpack_require__(6656);
-const use_buffer_state_1 = __webpack_require__(2318);
+const react_1 = __webpack_require__(758);
+const use_buffer_state_1 = __webpack_require__(8455);
 const useBufferUntilFirstFrame = ({ mediaRef, mediaType, onVariableFpsVideoDetected, pauseWhenBuffering, }) => {
     const bufferingRef = (0, react_1.useRef)(false);
     const { delayPlayback } = (0, use_buffer_state_1.useBufferState)();
@@ -3019,7 +3019,7 @@ exports.useBufferUntilFirstFrame = useBufferUntilFirstFrame;
 
 /***/ }),
 
-/***/ 122:
+/***/ 6709:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -3048,8 +3048,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useIsPlayerBuffering = exports.BufferingProvider = exports.BufferingContextReact = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
 const useBufferManager = () => {
     const [blocks, setBlocks] = (0, react_1.useState)([]);
     const [onBufferingCallbacks, setOnBufferingCallbacks] = (0, react_1.useState)([]);
@@ -3136,7 +3136,7 @@ exports.useIsPlayerBuffering = useIsPlayerBuffering;
 
 /***/ }),
 
-/***/ 6959:
+/***/ 1078:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3160,7 +3160,7 @@ exports.calculateLoopDuration = calculateLoopDuration;
 
 /***/ }),
 
-/***/ 7693:
+/***/ 7154:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3219,7 +3219,7 @@ function cancelRender(err) {
 
 /***/ }),
 
-/***/ 418:
+/***/ 5833:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3243,14 +3243,14 @@ exports.DEFAULT_CODEC = 'h264';
 
 /***/ }),
 
-/***/ 8087:
+/***/ 9729:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getInputProps = void 0;
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const input_props_serialization_js_1 = __webpack_require__(5854);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const input_props_serialization_js_1 = __webpack_require__(8521);
 let didWarnSSRImport = false;
 const warnOnceSSRImport = () => {
     if (didWarnSSRImport) {
@@ -3284,7 +3284,7 @@ exports.getInputProps = getInputProps;
 
 /***/ }),
 
-/***/ 4863:
+/***/ 8328:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3340,15 +3340,15 @@ exports.makeDefaultPreviewCSS = makeDefaultPreviewCSS;
 
 /***/ }),
 
-/***/ 5892:
+/***/ 9713:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.continueRender = exports.delayRender = exports.DELAY_RENDER_RETRY_TOKEN = exports.DELAY_RENDER_RETRIES_LEFT = exports.DELAY_RENDER_CALLSTACK_TOKEN = void 0;
-const cancel_render_js_1 = __webpack_require__(7693);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const truthy_js_1 = __webpack_require__(5938);
+const cancel_render_js_1 = __webpack_require__(7154);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const truthy_js_1 = __webpack_require__(7843);
 if (typeof window !== 'undefined') {
     window.remotion_renderReady = false;
 }
@@ -3438,14 +3438,14 @@ exports.continueRender = continueRender;
 
 /***/ }),
 
-/***/ 9027:
+/***/ 338:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 // Taken from https://github.com/facebook/react-native/blob/0b9ea60b4fee8cacc36e7160e31b91fc114dbc0d/Libraries/Animated/src/Easing.js
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Easing = void 0;
-const bezier_js_1 = __webpack_require__(3101);
+const bezier_js_1 = __webpack_require__(2584);
 /**
  * @description The Easing module implements common easing functions. You can use it with the interpolate() API.
  * @see [Documentation](https://www.remotion.dev/docs/easing)
@@ -3526,7 +3526,7 @@ exports.Easing = Easing;
 
 /***/ }),
 
-/***/ 9061:
+/***/ 6212:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -3535,8 +3535,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.addSequenceStackTraces = exports.enableSequenceStackTraces = void 0;
-const react_1 = __importDefault(__webpack_require__(6656));
-const get_remotion_environment_1 = __webpack_require__(8898);
+const react_1 = __importDefault(__webpack_require__(758));
+const get_remotion_environment_1 = __webpack_require__(7003);
 const originalCreateElement = react_1.default.createElement;
 const componentsToAddStacksTo = [];
 // Gets called when a new component is added,
@@ -3570,18 +3570,18 @@ exports.addSequenceStackTraces = addSequenceStackTraces;
 
 /***/ }),
 
-/***/ 7313:
+/***/ 4420:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Freeze = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const use_current_frame_js_1 = __webpack_require__(6731);
-const use_video_config_js_1 = __webpack_require__(7988);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const use_current_frame_js_1 = __webpack_require__(8764);
+const use_video_config_js_1 = __webpack_require__(7577);
 /**
  * @description This method freezes all of its children to the frame that you specify as a prop
  * @see [Documentation](https://www.remotion.dev/docs/freeze)
@@ -3635,7 +3635,7 @@ exports.Freeze = Freeze;
 
 /***/ }),
 
-/***/ 6950:
+/***/ 1385:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3656,7 +3656,7 @@ exports.getAssetDisplayName = getAssetDisplayName;
 
 /***/ }),
 
-/***/ 6081:
+/***/ 1506:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3671,7 +3671,7 @@ exports.getPreviewDomElement = getPreviewDomElement;
 
 /***/ }),
 
-/***/ 8898:
+/***/ 7003:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3709,13 +3709,13 @@ exports.getRemotionEnvironment = getRemotionEnvironment;
 
 /***/ }),
 
-/***/ 8729:
+/***/ 9380:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getStaticFiles = void 0;
-const v5_flag_1 = __webpack_require__(4866);
+const v5_flag_1 = __webpack_require__(3553);
 let warnedServer = false;
 let warnedPlayer = false;
 const warnServerOnce = () => {
@@ -3757,7 +3757,7 @@ exports.getStaticFiles = getStaticFiles;
 
 /***/ }),
 
-/***/ 5436:
+/***/ 2327:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -3777,69 +3777,69 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Config = exports.Experimental = exports.watchStaticFile = exports.useCurrentScale = exports.useCurrentFrame = exports.useBufferState = exports.staticFile = exports.Series = exports.Sequence = exports.registerRoot = exports.prefetch = exports.random = exports.interpolate = exports.Loop = exports.interpolateColors = exports.Img = exports.getStaticFiles = exports.getRemotionEnvironment = exports.delayRender = exports.continueRender = exports.getInputProps = exports.Composition = exports.cancelRender = exports.Artifact = void 0;
-__webpack_require__(8136);
-__webpack_require__(1732);
-const Clipper_js_1 = __webpack_require__(7945);
-const enable_sequence_stack_traces_js_1 = __webpack_require__(9061);
-const is_player_js_1 = __webpack_require__(1002);
-const multiple_versions_warning_js_1 = __webpack_require__(9939);
-const Null_js_1 = __webpack_require__(9687);
-const Sequence_js_1 = __webpack_require__(5891);
+__webpack_require__(9153);
+__webpack_require__(303);
+const Clipper_js_1 = __webpack_require__(458);
+const enable_sequence_stack_traces_js_1 = __webpack_require__(6212);
+const is_player_js_1 = __webpack_require__(2221);
+const multiple_versions_warning_js_1 = __webpack_require__(2648);
+const Null_js_1 = __webpack_require__(2994);
+const Sequence_js_1 = __webpack_require__(6322);
 (0, multiple_versions_warning_js_1.checkMultipleRemotionVersions)();
-__exportStar(__webpack_require__(7010), exports);
-var Artifact_js_1 = __webpack_require__(9588);
+__exportStar(__webpack_require__(363), exports);
+var Artifact_js_1 = __webpack_require__(1561);
 Object.defineProperty(exports, "Artifact", ({ enumerable: true, get: function () { return Artifact_js_1.Artifact; } }));
-__exportStar(__webpack_require__(3570), exports);
-var cancel_render_js_1 = __webpack_require__(7693);
+__exportStar(__webpack_require__(3306), exports);
+var cancel_render_js_1 = __webpack_require__(7154);
 Object.defineProperty(exports, "cancelRender", ({ enumerable: true, get: function () { return cancel_render_js_1.cancelRender; } }));
-var Composition_js_1 = __webpack_require__(766);
+var Composition_js_1 = __webpack_require__(9673);
 Object.defineProperty(exports, "Composition", ({ enumerable: true, get: function () { return Composition_js_1.Composition; } }));
-var input_props_js_1 = __webpack_require__(8087);
+var input_props_js_1 = __webpack_require__(9729);
 Object.defineProperty(exports, "getInputProps", ({ enumerable: true, get: function () { return input_props_js_1.getInputProps; } }));
-var delay_render_js_1 = __webpack_require__(5892);
+var delay_render_js_1 = __webpack_require__(9713);
 Object.defineProperty(exports, "continueRender", ({ enumerable: true, get: function () { return delay_render_js_1.continueRender; } }));
 Object.defineProperty(exports, "delayRender", ({ enumerable: true, get: function () { return delay_render_js_1.delayRender; } }));
-__exportStar(__webpack_require__(9027), exports);
-__exportStar(__webpack_require__(9338), exports);
-__exportStar(__webpack_require__(7313), exports);
-var get_remotion_environment_js_1 = __webpack_require__(8898);
+__exportStar(__webpack_require__(338), exports);
+__exportStar(__webpack_require__(7039), exports);
+__exportStar(__webpack_require__(4420), exports);
+var get_remotion_environment_js_1 = __webpack_require__(7003);
 Object.defineProperty(exports, "getRemotionEnvironment", ({ enumerable: true, get: function () { return get_remotion_environment_js_1.getRemotionEnvironment; } }));
-var get_static_files_js_1 = __webpack_require__(8729);
+var get_static_files_js_1 = __webpack_require__(9380);
 Object.defineProperty(exports, "getStaticFiles", ({ enumerable: true, get: function () { return get_static_files_js_1.getStaticFiles; } }));
-__exportStar(__webpack_require__(2614), exports);
-var Img_js_1 = __webpack_require__(6791);
+__exportStar(__webpack_require__(2899), exports);
+var Img_js_1 = __webpack_require__(6128);
 Object.defineProperty(exports, "Img", ({ enumerable: true, get: function () { return Img_js_1.Img; } }));
-__exportStar(__webpack_require__(7678), exports);
-var interpolate_colors_js_1 = __webpack_require__(1880);
+__exportStar(__webpack_require__(8101), exports);
+var interpolate_colors_js_1 = __webpack_require__(5373);
 Object.defineProperty(exports, "interpolateColors", ({ enumerable: true, get: function () { return interpolate_colors_js_1.interpolateColors; } }));
-var index_js_1 = __webpack_require__(5148);
+var index_js_1 = __webpack_require__(1446);
 Object.defineProperty(exports, "Loop", ({ enumerable: true, get: function () { return index_js_1.Loop; } }));
-var no_react_1 = __webpack_require__(1772);
+var no_react_1 = __webpack_require__(9158);
 Object.defineProperty(exports, "interpolate", ({ enumerable: true, get: function () { return no_react_1.interpolate; } }));
 Object.defineProperty(exports, "random", ({ enumerable: true, get: function () { return no_react_1.random; } }));
-var prefetch_js_1 = __webpack_require__(5721);
+var prefetch_js_1 = __webpack_require__(5640);
 Object.defineProperty(exports, "prefetch", ({ enumerable: true, get: function () { return prefetch_js_1.prefetch; } }));
-var register_root_js_1 = __webpack_require__(3788);
+var register_root_js_1 = __webpack_require__(8343);
 Object.defineProperty(exports, "registerRoot", ({ enumerable: true, get: function () { return register_root_js_1.registerRoot; } }));
-var Sequence_js_2 = __webpack_require__(5891);
+var Sequence_js_2 = __webpack_require__(6322);
 Object.defineProperty(exports, "Sequence", ({ enumerable: true, get: function () { return Sequence_js_2.Sequence; } }));
-var index_js_2 = __webpack_require__(6907);
+var index_js_2 = __webpack_require__(785);
 Object.defineProperty(exports, "Series", ({ enumerable: true, get: function () { return index_js_2.Series; } }));
-__exportStar(__webpack_require__(2815), exports);
-var static_file_js_1 = __webpack_require__(6759);
+__exportStar(__webpack_require__(945), exports);
+var static_file_js_1 = __webpack_require__(5464);
 Object.defineProperty(exports, "staticFile", ({ enumerable: true, get: function () { return static_file_js_1.staticFile; } }));
-__exportStar(__webpack_require__(1718), exports);
-var use_buffer_state_1 = __webpack_require__(2318);
+__exportStar(__webpack_require__(7857), exports);
+var use_buffer_state_1 = __webpack_require__(8455);
 Object.defineProperty(exports, "useBufferState", ({ enumerable: true, get: function () { return use_buffer_state_1.useBufferState; } }));
-var use_current_frame_js_1 = __webpack_require__(6731);
+var use_current_frame_js_1 = __webpack_require__(8764);
 Object.defineProperty(exports, "useCurrentFrame", ({ enumerable: true, get: function () { return use_current_frame_js_1.useCurrentFrame; } }));
-var use_current_scale_1 = __webpack_require__(6356);
+var use_current_scale_1 = __webpack_require__(6811);
 Object.defineProperty(exports, "useCurrentScale", ({ enumerable: true, get: function () { return use_current_scale_1.useCurrentScale; } }));
-__exportStar(__webpack_require__(7988), exports);
-__exportStar(__webpack_require__(1872), exports);
-__exportStar(__webpack_require__(4006), exports);
-__exportStar(__webpack_require__(735), exports);
-var watch_static_file_js_1 = __webpack_require__(5541);
+__exportStar(__webpack_require__(7577), exports);
+__exportStar(__webpack_require__(199), exports);
+__exportStar(__webpack_require__(5151), exports);
+__exportStar(__webpack_require__(1267), exports);
+var watch_static_file_js_1 = __webpack_require__(9782);
 Object.defineProperty(exports, "watchStaticFile", ({ enumerable: true, get: function () { return watch_static_file_js_1.watchStaticFile; } }));
 exports.Experimental = {
     /**
@@ -3885,15 +3885,15 @@ exports.Config = new Proxy(proxyObj, {
 
 /***/ }),
 
-/***/ 5854:
+/***/ 8521:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 // Must keep this file in sync with the one in packages/lambda/src/shared/serialize-props.ts!
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.serializeThenDeserializeInStudio = exports.deserializeJSONWithCustomFields = exports.serializeJSONWithDate = exports.FILE_TOKEN = exports.DATE_TOKEN = void 0;
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const static_file_js_1 = __webpack_require__(6759);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const static_file_js_1 = __webpack_require__(5464);
 exports.DATE_TOKEN = 'remotion-date:';
 exports.FILE_TOKEN = 'remotion-file:';
 const serializeJSONWithDate = ({ data, indent, staticBase, }) => {
@@ -3961,7 +3961,7 @@ exports.serializeThenDeserializeInStudio = serializeThenDeserializeInStudio;
 
 /***/ }),
 
-/***/ 7678:
+/***/ 8101:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -3990,46 +3990,46 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Internals = void 0;
-const shared_audio_tags_js_1 = __webpack_require__(5606);
-const use_audio_frame_js_1 = __webpack_require__(4882);
-const buffering_js_1 = __webpack_require__(122);
-const CanUseRemotionHooks_js_1 = __webpack_require__(6510);
-const Composition_js_1 = __webpack_require__(766);
-const CompositionManager_js_1 = __webpack_require__(4051);
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const CSSUtils = __importStar(__webpack_require__(4863));
-const EditorProps_js_1 = __webpack_require__(9685);
-const enable_sequence_stack_traces_js_1 = __webpack_require__(9061);
-const get_preview_dom_element_js_1 = __webpack_require__(6081);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const is_player_js_1 = __webpack_require__(1002);
-const NativeLayers_js_1 = __webpack_require__(9391);
-const nonce_js_1 = __webpack_require__(883);
-const portal_node_js_1 = __webpack_require__(2517);
-const prefetch_state_js_1 = __webpack_require__(2237);
-const prefetch_js_1 = __webpack_require__(5721);
-const register_root_js_1 = __webpack_require__(3788);
-const RemotionRoot_js_1 = __webpack_require__(6925);
-const RenderAssetManager_js_1 = __webpack_require__(3425);
-const resolve_video_config_js_1 = __webpack_require__(17);
-const ResolveCompositionConfig_js_1 = __webpack_require__(9846);
-const SequenceContext_js_1 = __webpack_require__(108);
-const SequenceManager_js_1 = __webpack_require__(560);
-const setup_env_variables_js_1 = __webpack_require__(595);
-const TimelinePosition = __importStar(__webpack_require__(9089));
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const truthy_js_1 = __webpack_require__(5938);
-const use_current_scale_js_1 = __webpack_require__(6356);
-const use_lazy_component_js_1 = __webpack_require__(1940);
-const use_unsafe_video_config_js_1 = __webpack_require__(1299);
-const use_video_js_1 = __webpack_require__(8733);
-const validate_artifact_js_1 = __webpack_require__(9866);
-const validate_composition_id_js_1 = __webpack_require__(8448);
-const duration_state_js_1 = __webpack_require__(4227);
-const video_fragment_js_1 = __webpack_require__(326);
-const volume_position_state_js_1 = __webpack_require__(5726);
-const watch_static_file_js_1 = __webpack_require__(5541);
-const wrap_remotion_context_js_1 = __webpack_require__(1722);
+const shared_audio_tags_js_1 = __webpack_require__(2382);
+const use_audio_frame_js_1 = __webpack_require__(6746);
+const buffering_js_1 = __webpack_require__(6709);
+const CanUseRemotionHooks_js_1 = __webpack_require__(4817);
+const Composition_js_1 = __webpack_require__(9673);
+const CompositionManager_js_1 = __webpack_require__(2278);
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const CSSUtils = __importStar(__webpack_require__(8328));
+const EditorProps_js_1 = __webpack_require__(3914);
+const enable_sequence_stack_traces_js_1 = __webpack_require__(6212);
+const get_preview_dom_element_js_1 = __webpack_require__(1506);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const is_player_js_1 = __webpack_require__(2221);
+const NativeLayers_js_1 = __webpack_require__(4266);
+const nonce_js_1 = __webpack_require__(4720);
+const portal_node_js_1 = __webpack_require__(1670);
+const prefetch_state_js_1 = __webpack_require__(6652);
+const prefetch_js_1 = __webpack_require__(5640);
+const register_root_js_1 = __webpack_require__(8343);
+const RemotionRoot_js_1 = __webpack_require__(800);
+const RenderAssetManager_js_1 = __webpack_require__(2672);
+const resolve_video_config_js_1 = __webpack_require__(2244);
+const ResolveCompositionConfig_js_1 = __webpack_require__(1523);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const setup_env_variables_js_1 = __webpack_require__(8380);
+const TimelinePosition = __importStar(__webpack_require__(5234));
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const truthy_js_1 = __webpack_require__(7843);
+const use_current_scale_js_1 = __webpack_require__(6811);
+const use_lazy_component_js_1 = __webpack_require__(5945);
+const use_unsafe_video_config_js_1 = __webpack_require__(372);
+const use_video_js_1 = __webpack_require__(8910);
+const validate_artifact_js_1 = __webpack_require__(8532);
+const validate_composition_id_js_1 = __webpack_require__(8822);
+const duration_state_js_1 = __webpack_require__(2719);
+const video_fragment_js_1 = __webpack_require__(2917);
+const volume_position_state_js_1 = __webpack_require__(2749);
+const watch_static_file_js_1 = __webpack_require__(9782);
+const wrap_remotion_context_js_1 = __webpack_require__(7610);
 // Mark them as Internals so use don't assume this is public
 // API and are less likely to use it
 exports.Internals = {
@@ -4099,7 +4099,7 @@ exports.Internals = {
 
 /***/ }),
 
-/***/ 1880:
+/***/ 5373:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -4111,7 +4111,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.interpolateColors = exports.colorNames = void 0;
 exports.processColor = processColor;
 /* eslint no-bitwise: 0 */
-const interpolate_js_1 = __webpack_require__(9211);
+const interpolate_js_1 = __webpack_require__(4048);
 // var INTEGER = '[-+]?\\d+';
 const NUMBER = '[-+]?\\d*\\.?\\d+';
 const PERCENTAGE = NUMBER + '%';
@@ -4505,7 +4505,7 @@ exports.interpolateColors = interpolateColors;
 
 /***/ }),
 
-/***/ 9211:
+/***/ 4048:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -4642,7 +4642,7 @@ function interpolate(input, inputRange, outputRange, options) {
 
 /***/ }),
 
-/***/ 995:
+/***/ 3588:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -4657,14 +4657,14 @@ exports.isApproximatelyTheSame = isApproximatelyTheSame;
 
 /***/ }),
 
-/***/ 1002:
+/***/ 2221:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useIsPlayer = exports.IsPlayerContextProvider = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
 const IsPlayerContext = (0, react_1.createContext)(false);
 const IsPlayerContextProvider = ({ children, }) => {
     return (0, jsx_runtime_1.jsx)(IsPlayerContext.Provider, { value: true, children: children });
@@ -4678,14 +4678,14 @@ exports.useIsPlayer = useIsPlayer;
 
 /***/ }),
 
-/***/ 8060:
+/***/ 7067:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Loading = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const AbsoluteFill_js_1 = __webpack_require__(7010);
+const jsx_runtime_1 = __webpack_require__(6070);
+const AbsoluteFill_js_1 = __webpack_require__(363);
 const rotate = {
     transform: `rotate(90deg)`,
 };
@@ -4720,7 +4720,7 @@ exports.Loading = Loading;
 
 /***/ }),
 
-/***/ 5148:
+/***/ 1446:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -4749,12 +4749,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Loop = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
-const Sequence_js_1 = __webpack_require__(5891);
-const use_current_frame_js_1 = __webpack_require__(6731);
-const use_video_config_js_1 = __webpack_require__(7988);
-const validate_duration_in_frames_js_1 = __webpack_require__(9213);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
+const Sequence_js_1 = __webpack_require__(6322);
+const use_current_frame_js_1 = __webpack_require__(8764);
+const use_video_config_js_1 = __webpack_require__(7577);
+const validate_duration_in_frames_js_1 = __webpack_require__(7279);
 const LoopContext = (0, react_1.createContext)(null);
 const useLoop = () => {
     return react_1.default.useContext(LoopContext);
@@ -4807,14 +4807,14 @@ exports.Loop.useLoop = useLoop;
 
 /***/ }),
 
-/***/ 9939:
+/***/ 2648:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.checkMultipleRemotionVersions = void 0;
-const truthy_js_1 = __webpack_require__(5938);
-const version_js_1 = __webpack_require__(1872);
+const truthy_js_1 = __webpack_require__(7843);
+const version_js_1 = __webpack_require__(199);
 const checkMultipleRemotionVersions = () => {
     if (typeof globalThis === 'undefined') {
         return;
@@ -4846,29 +4846,29 @@ exports.checkMultipleRemotionVersions = checkMultipleRemotionVersions;
 
 /***/ }),
 
-/***/ 1772:
+/***/ 9158:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NoReactInternals = exports.random = exports.interpolate = void 0;
-var interpolate_1 = __webpack_require__(9211);
+var interpolate_1 = __webpack_require__(4048);
 Object.defineProperty(exports, "interpolate", ({ enumerable: true, get: function () { return interpolate_1.interpolate; } }));
-var random_js_1 = __webpack_require__(1105);
+var random_js_1 = __webpack_require__(712);
 Object.defineProperty(exports, "random", ({ enumerable: true, get: function () { return random_js_1.random; } }));
-const delay_render_1 = __webpack_require__(5892);
-const input_props_serialization_1 = __webpack_require__(5854);
-const input_props_serialization_js_1 = __webpack_require__(5854);
-const interpolate_colors_1 = __webpack_require__(1880);
-const truthy_1 = __webpack_require__(5938);
-const v5_flag_1 = __webpack_require__(4866);
-const validate_frame_1 = __webpack_require__(9332);
-const validate_default_props_1 = __webpack_require__(264);
-const validate_dimensions_1 = __webpack_require__(9457);
-const validate_duration_in_frames_1 = __webpack_require__(9213);
-const validate_fps_1 = __webpack_require__(4025);
-const get_current_time_1 = __webpack_require__(7929);
-const offthread_video_source_1 = __webpack_require__(8892);
+const delay_render_1 = __webpack_require__(9713);
+const input_props_serialization_1 = __webpack_require__(8521);
+const input_props_serialization_js_1 = __webpack_require__(8521);
+const interpolate_colors_1 = __webpack_require__(5373);
+const truthy_1 = __webpack_require__(7843);
+const v5_flag_1 = __webpack_require__(3553);
+const validate_frame_1 = __webpack_require__(9369);
+const validate_default_props_1 = __webpack_require__(3666);
+const validate_dimensions_1 = __webpack_require__(7691);
+const validate_duration_in_frames_1 = __webpack_require__(7279);
+const validate_fps_1 = __webpack_require__(2083);
+const get_current_time_1 = __webpack_require__(4141);
+const offthread_video_source_1 = __webpack_require__(8984);
 exports.NoReactInternals = {
     processColor: interpolate_colors_1.processColor,
     truthy: truthy_1.truthy,
@@ -4897,13 +4897,13 @@ exports.NoReactInternals = {
 
 /***/ }),
 
-/***/ 883:
+/***/ 4720:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useNonce = exports.NonceContext = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 exports.NonceContext = (0, react_1.createContext)({
     getNonce: () => 0,
     fastRefreshes: 0,
@@ -4927,13 +4927,13 @@ exports.useNonce = useNonce;
 
 /***/ }),
 
-/***/ 4365:
+/***/ 5730:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.playAndHandleNotAllowedError = void 0;
-const get_remotion_environment_1 = __webpack_require__(8898);
+const get_remotion_environment_1 = __webpack_require__(7003);
 const playAndHandleNotAllowedError = (mediaRef, mediaType, onAutoPlayError) => {
     const { current } = mediaRef;
     if (!current) {
@@ -4989,7 +4989,7 @@ exports.playAndHandleNotAllowedError = playAndHandleNotAllowedError;
 
 /***/ }),
 
-/***/ 2517:
+/***/ 1670:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -5024,14 +5024,14 @@ exports.portalNode = portalNode;
 
 /***/ }),
 
-/***/ 2237:
+/***/ 6652:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.PrefetchProvider = exports.setPreloads = exports.PreloadContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
 exports.PreloadContext = (0, react_1.createContext)({});
 let preloads = {};
 let updaters = [];
@@ -5058,15 +5058,15 @@ exports.PrefetchProvider = PrefetchProvider;
 
 /***/ }),
 
-/***/ 5721:
+/***/ 5640:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.prefetch = exports.usePreload = void 0;
-const react_1 = __webpack_require__(6656);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const prefetch_state_js_1 = __webpack_require__(2237);
+const react_1 = __webpack_require__(758);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const prefetch_state_js_1 = __webpack_require__(6652);
 const usePreload = (src) => {
     var _a;
     const preloads = (0, react_1.useContext)(prefetch_state_js_1.PreloadContext);
@@ -5227,7 +5227,7 @@ exports.prefetch = prefetch;
 
 /***/ }),
 
-/***/ 1105:
+/***/ 712:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -5275,7 +5275,7 @@ exports.random = random;
 
 /***/ }),
 
-/***/ 3788:
+/***/ 8343:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -5319,17 +5319,17 @@ exports.waitForRoot = waitForRoot;
 
 /***/ }),
 
-/***/ 17:
+/***/ 2244:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveVideoConfigOrCatch = exports.resolveVideoConfig = void 0;
-const input_props_serialization_js_1 = __webpack_require__(5854);
-const validate_default_codec_js_1 = __webpack_require__(7380);
-const validate_dimensions_js_1 = __webpack_require__(9457);
-const validate_duration_in_frames_js_1 = __webpack_require__(9213);
-const validate_fps_js_1 = __webpack_require__(4025);
+const input_props_serialization_js_1 = __webpack_require__(8521);
+const validate_default_codec_js_1 = __webpack_require__(7934);
+const validate_dimensions_js_1 = __webpack_require__(7691);
+const validate_duration_in_frames_js_1 = __webpack_require__(7279);
+const validate_fps_js_1 = __webpack_require__(2083);
 const validateCalculated = ({ calculated, compositionId, compositionFps, compositionHeight, compositionWidth, compositionDurationInFrames, }) => {
     var _a, _b, _c, _d, _e, _f, _g, _h;
     const calculateMetadataErrorLocation = `calculated by calculateMetadata() for the composition "${compositionId}"`;
@@ -5430,7 +5430,7 @@ exports.resolveVideoConfigOrCatch = resolveVideoConfigOrCatch;
 
 /***/ }),
 
-/***/ 7129:
+/***/ 8163:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -5439,7 +5439,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.flattenChildren = void 0;
-const react_1 = __importDefault(__webpack_require__(6656));
+const react_1 = __importDefault(__webpack_require__(758));
 const flattenChildren = (children) => {
     const childrenArray = react_1.default.Children.toArray(children);
     return childrenArray.reduce((flatChildren, child) => {
@@ -5456,20 +5456,20 @@ exports.flattenChildren = flattenChildren;
 
 /***/ }),
 
-/***/ 6907:
+/***/ 785:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Series = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const Sequence_js_1 = __webpack_require__(5891);
-const enable_sequence_stack_traces_js_1 = __webpack_require__(9061);
-const v5_flag_js_1 = __webpack_require__(4866);
-const validate_duration_in_frames_js_1 = __webpack_require__(9213);
-const flatten_children_js_1 = __webpack_require__(7129);
-const is_inside_series_js_1 = __webpack_require__(6812);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const Sequence_js_1 = __webpack_require__(6322);
+const enable_sequence_stack_traces_js_1 = __webpack_require__(6212);
+const v5_flag_js_1 = __webpack_require__(3553);
+const validate_duration_in_frames_js_1 = __webpack_require__(7279);
+const flatten_children_js_1 = __webpack_require__(8163);
+const is_inside_series_js_1 = __webpack_require__(6658);
 const SeriesSequenceRefForwardingFunction = ({ children }, _ref) => {
     (0, is_inside_series_js_1.useRequireToBeInsideSeries)();
     // Discard ref
@@ -5538,7 +5538,7 @@ Series.Sequence = SeriesSequence;
 
 /***/ }),
 
-/***/ 6812:
+/***/ 6658:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -5567,8 +5567,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useRequireToBeInsideSeries = exports.IsNotInsideSeriesProvider = exports.IsInsideSeriesContainer = exports.IsInsideSeriesContext = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __importStar(__webpack_require__(6656));
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __importStar(__webpack_require__(758));
 exports.IsInsideSeriesContext = (0, react_1.createContext)(false);
 const IsInsideSeriesContainer = ({ children }) => {
     return ((0, jsx_runtime_1.jsx)(exports.IsInsideSeriesContext.Provider, { value: true, children: children }));
@@ -5589,13 +5589,13 @@ exports.useRequireToBeInsideSeries = useRequireToBeInsideSeries;
 
 /***/ }),
 
-/***/ 595:
+/***/ 8380:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.setupEnvVariables = void 0;
-const get_remotion_environment_js_1 = __webpack_require__(8898);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
 // https://github.com/remotion-dev/remotion/issues/3412#issuecomment-1910120552
 // eslint-disable-next-line no-useless-concat
 function getEnvVar() {
@@ -5634,19 +5634,19 @@ exports.setupEnvVariables = setupEnvVariables;
 
 /***/ }),
 
-/***/ 2815:
+/***/ 945:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.measureSpring = void 0;
 exports.spring = spring;
-const interpolate_js_1 = __webpack_require__(9211);
-const validate_frame_js_1 = __webpack_require__(9332);
-const validate_fps_js_1 = __webpack_require__(4025);
-const validation_spring_duration_js_1 = __webpack_require__(9340);
-const measure_spring_js_1 = __webpack_require__(9221);
-const spring_utils_js_1 = __webpack_require__(4458);
+const interpolate_js_1 = __webpack_require__(4048);
+const validate_frame_js_1 = __webpack_require__(9369);
+const validate_fps_js_1 = __webpack_require__(2083);
+const validation_spring_duration_js_1 = __webpack_require__(8669);
+const measure_spring_js_1 = __webpack_require__(2279);
+const spring_utils_js_1 = __webpack_require__(3736);
 /**
  * @description Calculates a position based on physical parameters, start and end value, and time.
  * @see [Documentation](https://www.remotion.dev/docs/spring)
@@ -5712,20 +5712,20 @@ function spring({ frame: passedFrame, fps, config = {}, from = 0, to = 1, durati
     const interpolated = from === 0 && to === 1 ? inner : (0, interpolate_js_1.interpolate)(inner, [0, 1], [from, to]);
     return interpolated;
 }
-var measure_spring_js_2 = __webpack_require__(9221);
+var measure_spring_js_2 = __webpack_require__(2279);
 Object.defineProperty(exports, "measureSpring", ({ enumerable: true, get: function () { return measure_spring_js_2.measureSpring; } }));
 
 
 /***/ }),
 
-/***/ 9221:
+/***/ 2279:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.measureSpring = measureSpring;
-const validate_fps_js_1 = __webpack_require__(4025);
-const spring_utils_js_1 = __webpack_require__(4458);
+const validate_fps_js_1 = __webpack_require__(2083);
+const spring_utils_js_1 = __webpack_require__(3736);
 const cache = new Map();
 /**
  * @description The function returns how long it takes for a spring animation to settle
@@ -5801,7 +5801,7 @@ function measureSpring({ fps, config = {}, threshold = 0.005, }) {
 
 /***/ }),
 
-/***/ 4458:
+/***/ 3736:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -5913,7 +5913,7 @@ function springCalculation({ frame, fps, config = {}, }) {
 
 /***/ }),
 
-/***/ 6759:
+/***/ 5464:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -6020,15 +6020,15 @@ exports.staticFile = staticFile;
 
 /***/ }),
 
-/***/ 9089:
+/***/ 5234:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.usePlayingState = exports.useTimelineSetFrame = exports.useTimelinePosition = exports.getFrameForComposition = exports.getInitialFrameState = exports.persistCurrentFrame = exports.SetTimelineContext = exports.TimelineContext = void 0;
-const react_1 = __webpack_require__(6656);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const use_video_js_1 = __webpack_require__(8733);
+const react_1 = __webpack_require__(758);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const use_video_js_1 = __webpack_require__(8910);
 exports.TimelineContext = (0, react_1.createContext)({
     frame: {},
     playing: false,
@@ -6107,7 +6107,7 @@ exports.usePlayingState = usePlayingState;
 
 /***/ }),
 
-/***/ 5938:
+/***/ 7843:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -6120,14 +6120,14 @@ function truthy(value) {
 
 /***/ }),
 
-/***/ 2318:
+/***/ 8455:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useBufferState = void 0;
-const react_1 = __webpack_require__(6656);
-const buffering_1 = __webpack_require__(122);
+const react_1 = __webpack_require__(758);
+const buffering_1 = __webpack_require__(6709);
 const useBufferState = () => {
     const buffer = (0, react_1.useContext)(buffering_1.BufferingContextReact);
     // Allows <Img> tag to be rendered without a context
@@ -6150,17 +6150,17 @@ exports.useBufferState = useBufferState;
 
 /***/ }),
 
-/***/ 6731:
+/***/ 8764:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useCurrentFrame = void 0;
-const react_1 = __webpack_require__(6656);
-const CanUseRemotionHooks_js_1 = __webpack_require__(6510);
-const SequenceContext_js_1 = __webpack_require__(108);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const timeline_position_state_js_1 = __webpack_require__(9089);
+const react_1 = __webpack_require__(758);
+const CanUseRemotionHooks_js_1 = __webpack_require__(4817);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const timeline_position_state_js_1 = __webpack_require__(5234);
 /**
  * @description Get the current frame of the video. Frames are 0-indexed, meaning the first frame is 0, the last frame is the duration of the composition in frames minus one.
  * @see [Documentation](https://remotion.dev/docs/use-current-frame)
@@ -6185,7 +6185,7 @@ exports.useCurrentFrame = useCurrentFrame;
 
 /***/ }),
 
-/***/ 6356:
+/***/ 6811:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -6214,9 +6214,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useCurrentScale = exports.calculateScale = exports.PreviewSizeContext = exports.CurrentScaleContext = void 0;
-const react_1 = __importStar(__webpack_require__(6656));
-const get_remotion_environment_1 = __webpack_require__(8898);
-const use_unsafe_video_config_1 = __webpack_require__(1299);
+const react_1 = __importStar(__webpack_require__(758));
+const get_remotion_environment_1 = __webpack_require__(7003);
+const use_unsafe_video_config_1 = __webpack_require__(372);
 exports.CurrentScaleContext = react_1.default.createContext(null);
 exports.PreviewSizeContext = (0, react_1.createContext)({
     setSize: () => undefined,
@@ -6266,7 +6266,7 @@ exports.useCurrentScale = useCurrentScale;
 
 /***/ }),
 
-/***/ 1940:
+/***/ 5945:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -6295,7 +6295,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useLazyComponent = void 0;
-const react_1 = __importStar(__webpack_require__(6656));
+const react_1 = __importStar(__webpack_require__(758));
 // Expected, it can be any component props
 const useLazyComponent = (compProps) => {
     const lazy = (0, react_1.useMemo)(() => {
@@ -6323,14 +6323,14 @@ exports.useLazyComponent = useLazyComponent;
 
 /***/ }),
 
-/***/ 3261:
+/***/ 8546:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useMediaBuffering = void 0;
-const react_1 = __webpack_require__(6656);
-const use_buffer_state_1 = __webpack_require__(2318);
+const react_1 = __webpack_require__(758);
+const use_buffer_state_1 = __webpack_require__(8455);
 const useMediaBuffering = ({ element, shouldBuffer, isPremounting, }) => {
     const buffer = (0, use_buffer_state_1.useBufferState)();
     const [isBuffering, setIsBuffering] = (0, react_1.useState)(false);
@@ -6414,23 +6414,23 @@ exports.useMediaBuffering = useMediaBuffering;
 
 /***/ }),
 
-/***/ 7066:
+/***/ 9953:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useMediaInTimeline = void 0;
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const SequenceManager_js_1 = __webpack_require__(560);
-const use_audio_frame_js_1 = __webpack_require__(4882);
-const get_asset_file_name_js_1 = __webpack_require__(6950);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const nonce_js_1 = __webpack_require__(883);
-const play_and_handle_not_allowed_error_js_1 = __webpack_require__(4365);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const use_video_config_js_1 = __webpack_require__(7988);
-const volume_prop_js_1 = __webpack_require__(1664);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const use_audio_frame_js_1 = __webpack_require__(6746);
+const get_asset_file_name_js_1 = __webpack_require__(1385);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const nonce_js_1 = __webpack_require__(4720);
+const play_and_handle_not_allowed_error_js_1 = __webpack_require__(5730);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const use_video_config_js_1 = __webpack_require__(7577);
+const volume_prop_js_1 = __webpack_require__(9843);
 const didWarn = {};
 const warnOnce = (message) => {
     if (didWarn[message]) {
@@ -6558,25 +6558,25 @@ exports.useMediaInTimeline = useMediaInTimeline;
 
 /***/ }),
 
-/***/ 9110:
+/***/ 9303:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useMediaPlayback = exports.DEFAULT_ACCEPTABLE_TIMESHIFT = void 0;
-const react_1 = __webpack_require__(6656);
-const use_audio_frame_js_1 = __webpack_require__(4882);
-const buffer_until_first_frame_js_1 = __webpack_require__(5078);
-const buffering_js_1 = __webpack_require__(122);
-const play_and_handle_not_allowed_error_js_1 = __webpack_require__(4365);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const use_current_frame_js_1 = __webpack_require__(6731);
-const use_media_buffering_js_1 = __webpack_require__(3261);
-const use_request_video_callback_time_js_1 = __webpack_require__(1967);
-const use_video_config_js_1 = __webpack_require__(7988);
-const get_current_time_js_1 = __webpack_require__(7929);
-const video_fragment_js_1 = __webpack_require__(326);
-const warn_about_non_seekable_media_js_1 = __webpack_require__(8076);
+const react_1 = __webpack_require__(758);
+const use_audio_frame_js_1 = __webpack_require__(6746);
+const buffer_until_first_frame_js_1 = __webpack_require__(6179);
+const buffering_js_1 = __webpack_require__(6709);
+const play_and_handle_not_allowed_error_js_1 = __webpack_require__(5730);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const use_current_frame_js_1 = __webpack_require__(8764);
+const use_media_buffering_js_1 = __webpack_require__(8546);
+const use_request_video_callback_time_js_1 = __webpack_require__(12);
+const use_video_config_js_1 = __webpack_require__(7577);
+const get_current_time_js_1 = __webpack_require__(4141);
+const video_fragment_js_1 = __webpack_require__(2917);
+const warn_about_non_seekable_media_js_1 = __webpack_require__(4687);
 exports.DEFAULT_ACCEPTABLE_TIMESHIFT = 0.45;
 const seek = (mediaRef, time) => {
     if (!mediaRef.current) {
@@ -6774,13 +6774,13 @@ exports.useMediaPlayback = useMediaPlayback;
 
 /***/ }),
 
-/***/ 7686:
+/***/ 7079:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useMediaTagVolume = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 // Returns the real volume of the audio or video while playing,
 // no matter what the supposed volume should be
 const useMediaTagVolume = (mediaRef) => {
@@ -6812,13 +6812,13 @@ exports.useMediaTagVolume = useMediaTagVolume;
 
 /***/ }),
 
-/***/ 1967:
+/***/ 12:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useRequestVideoCallbackTime = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 const useRequestVideoCallbackTime = ({ mediaRef, mediaType, lastSeek, onVariableFpsVideoDetected, }) => {
     const currentTime = (0, react_1.useRef)(null);
     (0, react_1.useEffect)(() => {
@@ -6878,15 +6878,15 @@ exports.useRequestVideoCallbackTime = useRequestVideoCallbackTime;
 
 /***/ }),
 
-/***/ 8063:
+/***/ 1902:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useSyncVolumeWithMediaTag = void 0;
-const react_1 = __webpack_require__(6656);
-const is_approximately_the_same_js_1 = __webpack_require__(995);
-const volume_prop_js_1 = __webpack_require__(1664);
+const react_1 = __webpack_require__(758);
+const is_approximately_the_same_js_1 = __webpack_require__(3588);
+const volume_prop_js_1 = __webpack_require__(9843);
 const useSyncVolumeWithMediaTag = ({ volumePropFrame, actualVolume, volume, mediaVolume, mediaRef, }) => {
     (0, react_1.useEffect)(() => {
         const userPreferredVolume = (0, volume_prop_js_1.evaluateVolume)({
@@ -6906,15 +6906,15 @@ exports.useSyncVolumeWithMediaTag = useSyncVolumeWithMediaTag;
 
 /***/ }),
 
-/***/ 1299:
+/***/ 372:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useUnsafeVideoConfig = void 0;
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const use_video_js_1 = __webpack_require__(8733);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const use_video_js_1 = __webpack_require__(8910);
 const useUnsafeVideoConfig = () => {
     var _a, _b, _c;
     const context = (0, react_1.useContext)(SequenceContext_js_1.SequenceContext);
@@ -6944,16 +6944,16 @@ exports.useUnsafeVideoConfig = useUnsafeVideoConfig;
 
 /***/ }),
 
-/***/ 7988:
+/***/ 7577:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useVideoConfig = void 0;
-const react_1 = __webpack_require__(6656);
-const CanUseRemotionHooks_js_1 = __webpack_require__(6510);
-const is_player_js_1 = __webpack_require__(1002);
-const use_unsafe_video_config_js_1 = __webpack_require__(1299);
+const react_1 = __webpack_require__(758);
+const CanUseRemotionHooks_js_1 = __webpack_require__(4817);
+const is_player_js_1 = __webpack_require__(2221);
+const use_unsafe_video_config_js_1 = __webpack_require__(372);
 /**
  * @description Get some info about the context of the video that you are making.
  * @see [Documentation](https://www.remotion.dev/docs/use-video-config)
@@ -6984,15 +6984,15 @@ exports.useVideoConfig = useVideoConfig;
 
 /***/ }),
 
-/***/ 8733:
+/***/ 8910:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useVideo = void 0;
-const react_1 = __webpack_require__(6656);
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const ResolveCompositionConfig_js_1 = __webpack_require__(9846);
+const react_1 = __webpack_require__(758);
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const ResolveCompositionConfig_js_1 = __webpack_require__(1523);
 const useVideo = () => {
     var _a;
     const { canvasContent, compositions, currentCompositionMetadata } = (0, react_1.useContext)(CompositionManagerContext_js_1.CompositionManager);
@@ -7031,7 +7031,7 @@ exports.useVideo = useVideo;
 
 /***/ }),
 
-/***/ 4866:
+/***/ 3553:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7042,7 +7042,7 @@ exports.ENABLE_V5_BREAKING_CHANGES = false;
 
 /***/ }),
 
-/***/ 9332:
+/***/ 9369:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7073,7 +7073,7 @@ exports.validateFrame = validateFrame;
 
 /***/ }),
 
-/***/ 2558:
+/***/ 8567:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7104,7 +7104,7 @@ exports.validateMediaProps = validateMediaProps;
 
 /***/ }),
 
-/***/ 6677:
+/***/ 4842:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7142,7 +7142,7 @@ exports.validateStartFromProps = validateStartFromProps;
 
 /***/ }),
 
-/***/ 9866:
+/***/ 8532:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7181,7 +7181,7 @@ exports.validateRenderAsset = validateRenderAsset;
 
 /***/ }),
 
-/***/ 8448:
+/***/ 8822:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7201,13 +7201,13 @@ exports.invalidCompositionErrorMessage = `Composition ID must match ${String(get
 
 /***/ }),
 
-/***/ 7380:
+/***/ 7934:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.validateDefaultCodec = validateDefaultCodec;
-const codec_1 = __webpack_require__(418);
+const codec_1 = __webpack_require__(5833);
 function validateDefaultCodec(defaultCodec, location) {
     if (typeof defaultCodec === 'undefined') {
         return;
@@ -7223,7 +7223,7 @@ function validateDefaultCodec(defaultCodec, location) {
 
 /***/ }),
 
-/***/ 264:
+/***/ 3666:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7245,7 +7245,7 @@ exports.validateDefaultAndInputProps = validateDefaultAndInputProps;
 
 /***/ }),
 
-/***/ 9457:
+/***/ 7691:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7272,7 +7272,7 @@ function validateDimension(amount, nameOfProp, location) {
 
 /***/ }),
 
-/***/ 9213:
+/***/ 7279:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7300,7 +7300,7 @@ function validateDurationInFrames(durationInFrames, options) {
 
 /***/ }),
 
-/***/ 1146:
+/***/ 8916:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7326,7 +7326,7 @@ exports.invalidFolderNameErrorMessage = `Folder name must match ${String(getRege
 
 /***/ }),
 
-/***/ 4025:
+/***/ 2083:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7353,7 +7353,7 @@ function validateFps(fps, location, isGif) {
 
 /***/ }),
 
-/***/ 9340:
+/***/ 8669:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7381,7 +7381,7 @@ exports.validateSpringDuration = validateSpringDuration;
 
 /***/ }),
 
-/***/ 1872:
+/***/ 199:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7398,7 +7398,7 @@ exports.VERSION = '4.0.221';
 
 /***/ }),
 
-/***/ 4006:
+/***/ 5151:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -7407,20 +7407,20 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 7435:
+/***/ 9583:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.OffthreadVideo = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const Sequence_js_1 = __webpack_require__(5891);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const validate_media_props_js_1 = __webpack_require__(2558);
-const validate_start_from_props_js_1 = __webpack_require__(6677);
-const OffthreadVideoForRendering_js_1 = __webpack_require__(1090);
-const VideoForPreview_js_1 = __webpack_require__(9513);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const Sequence_js_1 = __webpack_require__(6322);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const validate_media_props_js_1 = __webpack_require__(8567);
+const validate_start_from_props_js_1 = __webpack_require__(4842);
+const OffthreadVideoForRendering_js_1 = __webpack_require__(5382);
+const VideoForPreview_js_1 = __webpack_require__(7109);
 /**
  * @description This method imports and displays a video, similar to <Video />. During rendering, it extracts the exact frame from the video and displays it in an <img> tag
  * @see [Documentation](https://www.remotion.dev/docs/offthreadvideo)
@@ -7455,30 +7455,30 @@ exports.OffthreadVideo = OffthreadVideo;
 
 /***/ }),
 
-/***/ 1090:
+/***/ 5382:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.OffthreadVideoForRendering = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const Img_js_1 = __webpack_require__(6791);
-const RenderAssetManager_js_1 = __webpack_require__(3425);
-const SequenceContext_js_1 = __webpack_require__(108);
-const absolute_src_js_1 = __webpack_require__(6984);
-const use_audio_frame_js_1 = __webpack_require__(4882);
-const cancel_render_js_1 = __webpack_require__(7693);
-const default_css_js_1 = __webpack_require__(4863);
-const delay_render_js_1 = __webpack_require__(5892);
-const random_js_1 = __webpack_require__(1105);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const truthy_js_1 = __webpack_require__(5938);
-const use_current_frame_js_1 = __webpack_require__(6731);
-const use_unsafe_video_config_js_1 = __webpack_require__(1299);
-const volume_prop_js_1 = __webpack_require__(1664);
-const get_current_time_js_1 = __webpack_require__(7929);
-const offthread_video_source_js_1 = __webpack_require__(8892);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const Img_js_1 = __webpack_require__(6128);
+const RenderAssetManager_js_1 = __webpack_require__(2672);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const absolute_src_js_1 = __webpack_require__(5229);
+const use_audio_frame_js_1 = __webpack_require__(6746);
+const cancel_render_js_1 = __webpack_require__(7154);
+const default_css_js_1 = __webpack_require__(8328);
+const delay_render_js_1 = __webpack_require__(9713);
+const random_js_1 = __webpack_require__(712);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const truthy_js_1 = __webpack_require__(7843);
+const use_current_frame_js_1 = __webpack_require__(8764);
+const use_unsafe_video_config_js_1 = __webpack_require__(372);
+const volume_prop_js_1 = __webpack_require__(9843);
+const get_current_time_js_1 = __webpack_require__(4141);
+const offthread_video_source_js_1 = __webpack_require__(8984);
 const OffthreadVideoForRendering = ({ onError, volume: volumeProp, playbackRate, src, muted, allowAmplificationDuringRender, transparent = false, toneMapped = true, toneFrequency, name, loopVolumeCurveBehavior, delayRenderRetries, delayRenderTimeoutInMilliseconds, onVideoFrame, ...props }) => {
     const absoluteFrame = (0, timeline_position_state_js_1.useTimelinePosition)();
     const frame = (0, use_current_frame_js_1.useCurrentFrame)();
@@ -7665,28 +7665,28 @@ exports.OffthreadVideoForRendering = OffthreadVideoForRendering;
 
 /***/ }),
 
-/***/ 8164:
+/***/ 2496:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Video = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
+const jsx_runtime_1 = __webpack_require__(6070);
 /* eslint-disable @typescript-eslint/no-use-before-define */
-const react_1 = __webpack_require__(6656);
-const Sequence_js_1 = __webpack_require__(5891);
-const absolute_src_js_1 = __webpack_require__(6984);
-const calculate_loop_js_1 = __webpack_require__(6959);
-const enable_sequence_stack_traces_js_1 = __webpack_require__(9061);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const index_js_1 = __webpack_require__(5148);
-const prefetch_js_1 = __webpack_require__(5721);
-const use_video_config_js_1 = __webpack_require__(7988);
-const validate_media_props_js_1 = __webpack_require__(2558);
-const validate_start_from_props_js_1 = __webpack_require__(6677);
-const VideoForPreview_js_1 = __webpack_require__(9513);
-const VideoForRendering_js_1 = __webpack_require__(2669);
-const duration_state_js_1 = __webpack_require__(4227);
+const react_1 = __webpack_require__(758);
+const Sequence_js_1 = __webpack_require__(6322);
+const absolute_src_js_1 = __webpack_require__(5229);
+const calculate_loop_js_1 = __webpack_require__(1078);
+const enable_sequence_stack_traces_js_1 = __webpack_require__(6212);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const index_js_1 = __webpack_require__(1446);
+const prefetch_js_1 = __webpack_require__(5640);
+const use_video_config_js_1 = __webpack_require__(7577);
+const validate_media_props_js_1 = __webpack_require__(8567);
+const validate_start_from_props_js_1 = __webpack_require__(4842);
+const VideoForPreview_js_1 = __webpack_require__(7109);
+const VideoForRendering_js_1 = __webpack_require__(2665);
+const duration_state_js_1 = __webpack_require__(2719);
 const VideoForwardingFunction = (props, ref) => {
     var _a, _b;
     const { startFrom, endAt, name, pauseWhenBuffering, stack, _remotionInternalNativeLoopPassed, showInTimeline, onAutoPlayError, ...otherProps } = props;
@@ -7739,26 +7739,26 @@ exports.Video = (0, react_1.forwardRef)(VideoForwardingFunction);
 
 /***/ }),
 
-/***/ 9513:
+/***/ 7109:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.VideoForPreview = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const SequenceContext_js_1 = __webpack_require__(108);
-const SequenceManager_js_1 = __webpack_require__(560);
-const use_audio_frame_js_1 = __webpack_require__(4882);
-const prefetch_js_1 = __webpack_require__(5721);
-const use_media_in_timeline_js_1 = __webpack_require__(7066);
-const use_media_playback_js_1 = __webpack_require__(9110);
-const use_media_tag_volume_js_1 = __webpack_require__(7686);
-const use_sync_volume_with_media_tag_js_1 = __webpack_require__(8063);
-const use_video_config_js_1 = __webpack_require__(7988);
-const volume_position_state_js_1 = __webpack_require__(5726);
-const emit_video_frame_js_1 = __webpack_require__(526);
-const video_fragment_js_1 = __webpack_require__(326);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const use_audio_frame_js_1 = __webpack_require__(6746);
+const prefetch_js_1 = __webpack_require__(5640);
+const use_media_in_timeline_js_1 = __webpack_require__(9953);
+const use_media_playback_js_1 = __webpack_require__(9303);
+const use_media_tag_volume_js_1 = __webpack_require__(7079);
+const use_sync_volume_with_media_tag_js_1 = __webpack_require__(1902);
+const use_video_config_js_1 = __webpack_require__(7577);
+const volume_position_state_js_1 = __webpack_require__(2749);
+const emit_video_frame_js_1 = __webpack_require__(7682);
+const video_fragment_js_1 = __webpack_require__(2917);
 const VideoForDevelopmentRefForwardingFunction = (props, ref) => {
     var _a, _b, _c;
     const videoRef = (0, react_1.useRef)(null);
@@ -7910,28 +7910,28 @@ exports.VideoForPreview = (0, react_1.forwardRef)(VideoForDevelopmentRefForwardi
 
 /***/ }),
 
-/***/ 2669:
+/***/ 2665:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.VideoForRendering = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const RenderAssetManager_js_1 = __webpack_require__(3425);
-const SequenceContext_js_1 = __webpack_require__(108);
-const absolute_src_js_1 = __webpack_require__(6984);
-const use_audio_frame_js_1 = __webpack_require__(4882);
-const delay_render_js_1 = __webpack_require__(5892);
-const get_remotion_environment_js_1 = __webpack_require__(8898);
-const is_approximately_the_same_js_1 = __webpack_require__(995);
-const random_js_1 = __webpack_require__(1105);
-const timeline_position_state_js_1 = __webpack_require__(9089);
-const use_current_frame_js_1 = __webpack_require__(6731);
-const use_unsafe_video_config_js_1 = __webpack_require__(1299);
-const volume_prop_js_1 = __webpack_require__(1664);
-const get_current_time_js_1 = __webpack_require__(7929);
-const seek_until_right_js_1 = __webpack_require__(7405);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const RenderAssetManager_js_1 = __webpack_require__(2672);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const absolute_src_js_1 = __webpack_require__(5229);
+const use_audio_frame_js_1 = __webpack_require__(6746);
+const delay_render_js_1 = __webpack_require__(9713);
+const get_remotion_environment_js_1 = __webpack_require__(7003);
+const is_approximately_the_same_js_1 = __webpack_require__(3588);
+const random_js_1 = __webpack_require__(712);
+const timeline_position_state_js_1 = __webpack_require__(5234);
+const use_current_frame_js_1 = __webpack_require__(8764);
+const use_unsafe_video_config_js_1 = __webpack_require__(372);
+const volume_prop_js_1 = __webpack_require__(9843);
+const get_current_time_js_1 = __webpack_require__(4141);
+const seek_until_right_js_1 = __webpack_require__(2545);
 const VideoForRenderingForwardFunction = ({ onError, volume: volumeProp, allowAmplificationDuringRender, playbackRate, onDuration, toneFrequency, name, acceptableTimeShiftInSeconds, delayRenderRetries, delayRenderTimeoutInMilliseconds, loopVolumeCurveBehavior, ...props }, ref) => {
     const absoluteFrame = (0, timeline_position_state_js_1.useTimelinePosition)();
     const frame = (0, use_current_frame_js_1.useCurrentFrame)();
@@ -8125,15 +8125,15 @@ exports.VideoForRendering = (0, react_1.forwardRef)(VideoForRenderingForwardFunc
 
 /***/ }),
 
-/***/ 4227:
+/***/ 2719:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.DurationsContextProvider = exports.DurationsContext = exports.durationReducer = void 0;
-const jsx_runtime_1 = __webpack_require__(5404);
-const react_1 = __webpack_require__(6656);
-const absolute_src_js_1 = __webpack_require__(6984);
+const jsx_runtime_1 = __webpack_require__(6070);
+const react_1 = __webpack_require__(758);
+const absolute_src_js_1 = __webpack_require__(5229);
 const durationReducer = (state, action) => {
     switch (action.type) {
         case 'got-duration': {
@@ -8172,13 +8172,13 @@ exports.DurationsContextProvider = DurationsContextProvider;
 
 /***/ }),
 
-/***/ 526:
+/***/ 7682:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useEmitVideoFrame = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 const useEmitVideoFrame = ({ ref, onVideoFrame, }) => {
     (0, react_1.useEffect)(() => {
         const { current } = ref;
@@ -8207,14 +8207,14 @@ exports.useEmitVideoFrame = useEmitVideoFrame;
 
 /***/ }),
 
-/***/ 7929:
+/***/ 4141:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 // Calculate the `.currentTime` of a video or audio element
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getMediaTime = exports.getExpectedMediaFrameUncorrected = void 0;
-const interpolate_js_1 = __webpack_require__(9211);
+const interpolate_js_1 = __webpack_require__(4048);
 const getExpectedMediaFrameUncorrected = ({ frame, playbackRate, startFrom, }) => {
     return (0, interpolate_js_1.interpolate)(frame, [-1, startFrom, startFrom + 1], [-1, startFrom, startFrom + playbackRate]);
 };
@@ -8233,27 +8233,27 @@ exports.getMediaTime = getMediaTime;
 
 /***/ }),
 
-/***/ 735:
+/***/ 1267:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Video = exports.OffthreadVideo = void 0;
-var OffthreadVideo_js_1 = __webpack_require__(7435);
+var OffthreadVideo_js_1 = __webpack_require__(9583);
 Object.defineProperty(exports, "OffthreadVideo", ({ enumerable: true, get: function () { return OffthreadVideo_js_1.OffthreadVideo; } }));
-var Video_js_1 = __webpack_require__(8164);
+var Video_js_1 = __webpack_require__(2496);
 Object.defineProperty(exports, "Video", ({ enumerable: true, get: function () { return Video_js_1.Video; } }));
 
 
 /***/ }),
 
-/***/ 8892:
+/***/ 8984:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getOffthreadVideoSource = void 0;
-const absolute_src_1 = __webpack_require__(6984);
+const absolute_src_1 = __webpack_require__(5229);
 const getOffthreadVideoSource = ({ src, transparent, currentTime, toneMapped, }) => {
     return `http://localhost:${window.remotion_proxyPort}/proxy?src=${encodeURIComponent((0, absolute_src_1.getAbsoluteSrc)(src))}&time=${encodeURIComponent(currentTime)}&transparent=${String(transparent)}&toneMapped=${String(toneMapped)}`;
 };
@@ -8262,7 +8262,7 @@ exports.getOffthreadVideoSource = getOffthreadVideoSource;
 
 /***/ }),
 
-/***/ 7405:
+/***/ 2545:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -8362,13 +8362,13 @@ exports.seekToTimeMultipleUntilRight = seekToTimeMultipleUntilRight;
 
 /***/ }),
 
-/***/ 326:
+/***/ 2917:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useAppendVideoFragment = exports.appendVideoFragment = exports.isIosSafari = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 const toSeconds = (time, fps) => {
     return Math.round((time / fps) * 100) / 100;
 };
@@ -8455,13 +8455,13 @@ exports.useAppendVideoFragment = useAppendVideoFragment;
 
 /***/ }),
 
-/***/ 5726:
+/***/ 2749:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.useMediaMutedState = exports.useMediaVolumeState = exports.SetMediaVolumeContext = exports.MediaVolumeContext = void 0;
-const react_1 = __webpack_require__(6656);
+const react_1 = __webpack_require__(758);
 exports.MediaVolumeContext = (0, react_1.createContext)({
     mediaMuted: false,
     mediaVolume: 1,
@@ -8494,7 +8494,7 @@ exports.useMediaMutedState = useMediaMutedState;
 
 /***/ }),
 
-/***/ 1664:
+/***/ 9843:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -8525,7 +8525,7 @@ exports.evaluateVolume = evaluateVolume;
 
 /***/ }),
 
-/***/ 8076:
+/***/ 4687:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -8574,14 +8574,14 @@ exports.warnAboutNonSeekableMedia = warnAboutNonSeekableMedia;
 
 /***/ }),
 
-/***/ 5541:
+/***/ 9782:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.watchStaticFile = exports.WATCH_REMOTION_STATIC_FILES = void 0;
-const get_remotion_environment_1 = __webpack_require__(8898);
-const v5_flag_1 = __webpack_require__(4866);
+const get_remotion_environment_1 = __webpack_require__(7003);
+const v5_flag_1 = __webpack_require__(3553);
 exports.WATCH_REMOTION_STATIC_FILES = 'remotion_staticFilesChanged';
 /**
  * @description Watch for changes in a specific static file.
@@ -8637,7 +8637,7 @@ exports.watchStaticFile = watchStaticFile;
 
 /***/ }),
 
-/***/ 1722:
+/***/ 7610:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -8667,22 +8667,22 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.RemotionContextProvider = void 0;
 exports.useRemotionContexts = useRemotionContexts;
-const jsx_runtime_1 = __webpack_require__(5404);
+const jsx_runtime_1 = __webpack_require__(6070);
 // This is used for when other reconcilers are being used
 // such as in React Three Fiber. All the contexts need to be passed again
 // for them to be useable
-const react_1 = __importStar(__webpack_require__(6656));
-const CanUseRemotionHooks_js_1 = __webpack_require__(6510);
-const CompositionManagerContext_js_1 = __webpack_require__(3644);
-const NativeLayers_js_1 = __webpack_require__(9391);
-const RenderAssetManager_js_1 = __webpack_require__(3425);
-const ResolveCompositionConfig_js_1 = __webpack_require__(9846);
-const SequenceContext_js_1 = __webpack_require__(108);
-const SequenceManager_js_1 = __webpack_require__(560);
-const buffering_js_1 = __webpack_require__(122);
-const nonce_js_1 = __webpack_require__(883);
-const prefetch_state_js_1 = __webpack_require__(2237);
-const timeline_position_state_js_1 = __webpack_require__(9089);
+const react_1 = __importStar(__webpack_require__(758));
+const CanUseRemotionHooks_js_1 = __webpack_require__(4817);
+const CompositionManagerContext_js_1 = __webpack_require__(2659);
+const NativeLayers_js_1 = __webpack_require__(4266);
+const RenderAssetManager_js_1 = __webpack_require__(2672);
+const ResolveCompositionConfig_js_1 = __webpack_require__(1523);
+const SequenceContext_js_1 = __webpack_require__(4719);
+const SequenceManager_js_1 = __webpack_require__(2959);
+const buffering_js_1 = __webpack_require__(6709);
+const nonce_js_1 = __webpack_require__(4720);
+const prefetch_state_js_1 = __webpack_require__(6652);
+const timeline_position_state_js_1 = __webpack_require__(5234);
 function useRemotionContexts() {
     const compositionManagerCtx = react_1.default.useContext(CompositionManagerContext_js_1.CompositionManager);
     const timelineContext = react_1.default.useContext(timeline_position_state_js_1.TimelineContext);
@@ -8733,7 +8733,7 @@ exports.RemotionContextProvider = RemotionContextProvider;
 
 /***/ }),
 
-/***/ 9262:
+/***/ 4733:
 /***/ ((__unused_webpack_module, exports) => {
 
 /**
@@ -8759,13 +8759,13 @@ exports.unstable_shouldYield=M;exports.unstable_wrapCallback=function(a){var b=y
 
 /***/ }),
 
-/***/ 70:
+/***/ 1896:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(9262);
+  module.exports = __webpack_require__(4733);
 } else {}
 
 
@@ -9072,7 +9072,7 @@ var exports = {};
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
-const remotion_1 = __webpack_require__(5436);
+const remotion_1 = __webpack_require__(2327);
 remotion_1.Internals.setupEnvVariables();
 remotion_1.Internals.CSSUtils.injectCSS(`
   .css-reset, .css-reset * {
@@ -9171,17 +9171,17 @@ remotion_1.Internals.CSSUtils.injectCSS(`
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 (() => {
 
-// EXTERNAL MODULE: C:\Users\me\AppData\Roaming\npm\node_modules\@remotion\cli\node_modules\remotion\dist\cjs\index.js
-var C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_remotion_dist_cjs_index = __webpack_require__(5436);
-// EXTERNAL MODULE: C:\Users\me\AppData\Roaming\npm\node_modules\@remotion\cli\node_modules\react\index.js
-var C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index = __webpack_require__(6656);
+// EXTERNAL MODULE: ./node_modules/.pnpm/remotion@4.0.221_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/remotion/dist/cjs/index.js
+var cjs = __webpack_require__(2327);
+// EXTERNAL MODULE: ./node_modules/.pnpm/react@18.3.1/node_modules/react/index.js
+var react = __webpack_require__(758);
 ;// CONCATENATED MODULE: ./src/Compositions/Basic.tsx
 
 
 const MyComposition = () => {
-  const frame = (0,C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_remotion_dist_cjs_index.useCurrentFrame)();
-  const { fps } = (0,C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_remotion_dist_cjs_index.useVideoConfig)();
-  return /* @__PURE__ */ C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.createElement("div", { style: { flex: 1, backgroundColor: "black", color: "white" } }, /* @__PURE__ */ C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.createElement("h1", null, "Hello from MyComposition!"), /* @__PURE__ */ C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.createElement("p", null, "Current frame: ", frame), /* @__PURE__ */ C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.createElement("p", null, "Current time: ", (frame / fps).toFixed(2), " seconds"));
+  const frame = (0,cjs.useCurrentFrame)();
+  const { fps } = (0,cjs.useVideoConfig)();
+  return /* @__PURE__ */ react.createElement("div", { style: { flex: 1, backgroundColor: "black", color: "white" } }, /* @__PURE__ */ react.createElement("h1", null, "Hello from MyComposition!"), /* @__PURE__ */ react.createElement("p", null, "Current frame: ", frame), /* @__PURE__ */ react.createElement("p", null, "Current time: ", (frame / fps).toFixed(2), " seconds"));
 };
 /* harmony default export */ const Basic = (MyComposition);
 
@@ -9190,8 +9190,8 @@ const MyComposition = () => {
 
 
 const Root = () => {
-  return /* @__PURE__ */ C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.createElement(C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.Fragment, null, /* @__PURE__ */ C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_react_index.createElement(
-    C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_remotion_dist_cjs_index.Composition,
+  return /* @__PURE__ */ react.createElement(react.Fragment, null, /* @__PURE__ */ react.createElement(
+    cjs.Composition,
     {
       id: "Basic",
       component: Basic,
@@ -9206,14 +9206,14 @@ const Root = () => {
 ;// CONCATENATED MODULE: ./src/index.tsx
 
 
-(0,C_Users_me_AppData_Roaming_npm_node_modules_remotion_cli_node_modules_remotion_dist_cjs_index.registerRoot)(Root);
+(0,cjs.registerRoot)(Root);
 
 })();
 
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 (() => {
 var react__WEBPACK_IMPORTED_MODULE_0___namespace_cache;
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6656);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(758);
 
 
 if (typeof globalThis === 'undefined') {
@@ -9227,11 +9227,11 @@ if (typeof globalThis === 'undefined') {
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 (() => {
 /* unused harmony export setBundleModeAndUpdate */
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6656);
-/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6966);
-/* harmony import */ var remotion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5436);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(758);
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9576);
+/* harmony import */ var remotion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2327);
 /* harmony import */ var remotion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(remotion__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var remotion_no_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1772);
+/* harmony import */ var remotion_no_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9158);
 
 
 
@@ -9422,7 +9422,7 @@ const renderContent = (Root) => {
     renderToDOM(
       /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(DelayedSpinner, null))
     );
-    __webpack_require__.e(/* import() */ 238).then(__webpack_require__.bind(__webpack_require__, 2238)).then(({ StudioInternals }) => {
+    __webpack_require__.e(/* import() */ 326).then(__webpack_require__.bind(__webpack_require__, 2326)).then(({ StudioInternals }) => {
       renderToDOM(/* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(StudioInternals.Studio, { readOnly: true, rootComponent: Root }));
     }).catch((err) => {
       renderToDOM(/* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "Failed to load Remotion Studio: ", err.message));
